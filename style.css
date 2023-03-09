@@ -1,0 +1,42 @@
+html{
+    padding-bottom: 1000px;
+}
+
+
+
+div {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.estatico{
+    top: 10px;
+    background-color: #cccccc;
+}
+
+.relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(23, 213, 220);
+}
+.absolute{
+    position: absolute;
+    top: 10px;
+    left: 1opx;
+    background-color: rgb(214, 22, 25);
+}
+
+.fixed{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(35, 204, 72);
+}
+
+.sticky{
+    position: sticky;
+    top: 10px;
+   background-color: rgb(233, 233, 26);
+}
